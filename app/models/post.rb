@@ -1,6 +1,10 @@
 class Post < ActiveRecord::Base
 
+
   belongs_to :user
+
+
+
 
   def self.timeline(user)
     following_ids = user.all_following.map(&:id)
