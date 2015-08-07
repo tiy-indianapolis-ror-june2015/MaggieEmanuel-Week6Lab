@@ -1,0 +1,20 @@
+<% provide(:title, "Peeks") %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "Peeks", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Sign up", new_user_registration_path %></li>
+        <li><%= link_to "Log In", new_user_session_path %></li>
+        <li><%= link_to "Log out", destroy_user_session_path, :method => :delete %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="center jumbotron">
+  <div class="container">
+    <h1>Peeks</h1>
+    <p>This is the home page</p>
+  </div>
+</div>
