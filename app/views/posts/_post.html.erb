@@ -1,0 +1,7 @@
+<ul class="post">
+  <%= render @post %>
+  <li id="post <%= post.id %>">
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(post.created_at) %> ago.
+  </span>
+</ul>
