@@ -7,7 +7,9 @@ gem 'rails', '4.2.3'
 gem 'devise'
 gem 'wicked', '~> 1.1.1'
 
+gem 'faker'
 # Use SCSS for stylesheets
+
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'bootstrap_forms', '~> 4.0.1'
@@ -29,6 +31,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
