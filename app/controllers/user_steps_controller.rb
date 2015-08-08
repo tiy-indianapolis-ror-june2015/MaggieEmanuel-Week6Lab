@@ -11,14 +11,14 @@ class UserStepsController < ApplicationController
 
   def update
     @user = current_user
-    @user.update_attributes(params[:user])
-    render_wizard @user 
+    @user.update_attributes(user_params)
+    render_wizard @user
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:first_name, :last_name, :username, :user_bio, :email, :password, :user_photo)
+    params.require(:user).permit(:email, :password, :password_confirmation, :username, :user_bio, :user_photo)
   end
 
 end
