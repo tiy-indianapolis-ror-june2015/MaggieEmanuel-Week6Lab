@@ -1,4 +1,5 @@
 class UserController < ApplicationController
+   attr_accessible :email, :username, :user_bio, :user_photo
 
   def new
     @user = User.new
@@ -41,6 +42,8 @@ class UserController < ApplicationController
 
   def unfollow
   end
+
+
 
 
 
