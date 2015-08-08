@@ -1,11 +1,21 @@
 Rails.application.routes.draw do
+  resources :user, :only => [:show, :index, :new]
   resources :posts
-  devise_for :users
+  devise_for :users do
+    member do
+      get :follow
+      get :unfollow
+      end
+    end
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'posts#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
