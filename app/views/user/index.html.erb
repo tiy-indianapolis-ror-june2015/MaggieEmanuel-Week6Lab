@@ -1,15 +1,9 @@
-<h1>All Users</h1>
-<ul>
-  <% @user.each do |user| %>
-    <li><%= user.email %></li>
-  <% end %>
-
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to "Peeks", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Profile", current_user %></li>
+        <li><%= link_to "Profile", user_path(:id => current_user.id) %></li>
         <li><%= link_to "Log out", destroy_user_session_path, :method => :delete %></li>
       </ul>
     </nav>
@@ -17,15 +11,15 @@
 </header>
 <div class="container col-md-offset-1">
   <h1>All Users</h1>
-  <ul>
-    <% @user.each do |user| %>
-      <ul class="list-style-none list-inline">
-        <li class=" btn btn-primary"><%=link_to "Follow", follow_path(:username), :method => :post %></li>
-        <li class=" btn btn-primary"><%=link_to "Unfollow", unfollow_path(:username), :method => :post %></li>
+  <br>
+  <% @user.each do |user| %>
+  <div class="row">
+    <ul class="list-style-none list-inline" >
+        <li class="btn btn-info"><%=link_to "Follow", follow_path(:id => user.id), :method => :post %></li>
+        <li class="btn btn-info"><%=link_to "Unfollow", unfollow_path(:id => user.id), :method => :post %></li>
         <li><%= user.username %></li> |
-        <li><%= user.first_name %> <%= user.last_name %></li>
+        <li><%= user.first_name %> <%= user.last_name %></li> |
     </ul>
-
-
-    <% end %>
+  </div>
+  <% end %>
 </div>
