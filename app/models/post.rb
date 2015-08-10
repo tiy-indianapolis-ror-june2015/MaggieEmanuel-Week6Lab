@@ -4,7 +4,7 @@ class Post < ActiveRecord::Base
   belongs_to :user
   validates :user_id, presence: true
   validates :body, presence: true
-  validates :post_length
+
 
   def post_length
     errors.add(:body, "of post is too long, can't be longer than 170 characters") unless body.to_s.length < 170
