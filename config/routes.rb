@@ -12,7 +12,9 @@ Rails.application.routes.draw do
   end
   resources :user_steps
   resources :user, :only => [:show, :index, :new]
-
+  
+  post 'user/:username/follow' => 'user#follow', as: :follow
+  post 'user/:username/unfollow' => 'user#unfollow', as: :unfollow
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
