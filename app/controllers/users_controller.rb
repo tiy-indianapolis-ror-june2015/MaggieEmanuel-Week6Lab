@@ -1,5 +1,7 @@
+
 class UsersController < ApplicationController
   attr_accessor :email, :username, :user_bio, :user_photo
+
 
   def new
     @user = User.new
@@ -27,11 +29,16 @@ class UsersController < ApplicationController
   end
 
   def follow
+
+    @user = User.find(:id)
       if current_user == @user
         "You cannot follow yourself"
       else
         current_user.follow(@user)
-          "You are now following #{@user.email}"
+
+        render "You are now following #{@user}"
+
+
       end
       redirect_to :back
   end
@@ -39,10 +46,12 @@ class UsersController < ApplicationController
   def unfollow
     if current_user
       current_user.stop_following(@user)
-        "You are no longer following #{@user.email}."
-        redirect_to :back
+
+        render "You are no longer following #{@user.email}."
+      redirect_to :back
     else
-      "You must sign in to unfollow #{@user.email}."
+      render "You must sign in to unfollow #{@user.email}."
+
     end
   end
 
