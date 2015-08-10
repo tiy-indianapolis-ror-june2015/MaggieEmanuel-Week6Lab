@@ -14,11 +14,10 @@
   <ul>
     <% @user.each do |user| %>
       <ul class="list-style-none list-inline">
-        <li class=" btn btn-primary"><%=link_to "Follow", follow_path, :method => :post %></li>
-        <li class=" btn btn-primary"><%=link_to "Unfollow", unfollow_path, :method => :post %></li>
+        <li class=" btn btn-primary"><%=link_to "Follow", follow_path(:username), :method => :post %></li>
+        <li class=" btn btn-primary"><%=link_to "Unfollow", unfollow_path(:username), :method => :post %></li>
         <li><%= user.username %></li> |
-        <li><%= user.first_name %> <%= user.last_name %></li> |
-        <li><%= user.email %></li>
+        <li><%= user.first_name %> <%= user.last_name %></li>
     </ul>
 
     <% end %>

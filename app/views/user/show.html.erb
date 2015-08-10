@@ -34,8 +34,8 @@
 <div class="container col-md-offset-1">
   <div class="span6">
     <ul class="list-style-none list-inline">
-      <li><h5>FOLLOWING</h5></li>
-      <li><h5>FOLLOWERS</h5></li>
+      <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+      <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
     </ul>
     <div class="btn btn-primary">
       <%= link_to "Timeline", posts_path(current_user) %>
