@@ -4,14 +4,14 @@ Rails.application.routes.draw do
   root 'home_page#home'
 
   resources :posts
-  devise_for :users, controllers: {registrations: "users/registrations"} do
+  devise_for :users, controllers: {registrations: "users/registrations"}
+  resources :user_steps
+  resources :user, :only => [:show, :index, :new] do
     member do
       get :follow
       get :unfollow
     end
   end
-  resources :user_steps
-  resources :user, :only => [:show, :index, :new]
 
   post 'user/:username/follow' => 'user#follow', as: :follow
   post 'user/:username/unfollow' => 'user#unfollow', as: :unfollow

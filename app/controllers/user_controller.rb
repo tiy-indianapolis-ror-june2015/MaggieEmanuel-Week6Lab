@@ -35,11 +35,8 @@ class UserController < ApplicationController
         render "You cannot follow yourself"
       else
         current_user.follow(@user)
-<<<<<<< HEAD
         render "You are now following #{@user}"
-=======
-        render "You are now following #{@user.username}"
->>>>>>> 784a090dc4c237dae351b87dba126bac54eb774d
+
       end
       redirect_to :back
   end
