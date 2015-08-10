@@ -4,7 +4,8 @@
     <%= link_to "Peeks", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Profile", user_index_path %></li>
+        <li><%= link_to "Profile", user_path(:id => current_user.id) %></li>
+
         <li><%= link_to "Log out", destroy_user_session_path, :method => :delete %></li>
       </ul>
     </nav>
@@ -12,15 +13,16 @@
 </header>
 <div class="container col-md-offset-1">
   <h1>All Users</h1>
-  <ul>
-    <% @user.each do |user| %>
-      <ul class="list-style-none list-inline">
-        <li class=" btn btn-primary"><%=link_to "Follow", follow_user_path(:id) %></li>
-        <li class=" btn btn-primary"><%=link_to "Unfollow", unfollow_user_path(:id) %></li>
+
+  <br>
+  <% @user.each do |user| %>
+  <div class="row">
+    <ul class="list-style-none list-inline" >
+        <li class="btn btn-info"><%=link_to "Follow", follow_path(:id => user.id), :method => :post %></li>
+        <li class="btn btn-info"><%=link_to "Unfollow", unfollow_path(:id => user.id), :method => :post %></li>
         <li><%= user.username %></li> |
-        <li><%= user.first_name %> <%= user.last_name %></li>
+        <li><%= user.first_name %> <%= user.last_name %></li> |
     </ul>
-
-
-    <% end %>
+  </div>
+  <% end %>
 </div>
