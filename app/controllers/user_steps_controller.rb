@@ -15,10 +15,14 @@ class UserStepsController < ApplicationController
     render_wizard @user
   end
 
+  def finish_wizard_path
+    user_path(current_user)
+  end
+
   private
 
   def user_params
-    params.require(:user).permit(:email, :password, :password_confirmation, :username, :user_bio, :user_photo)
+    params.require(:user).permit(:email, :password, :password_confirmation, :username, :user_bio, :user_photo, :first_name, :last_name)
   end
 
 end
