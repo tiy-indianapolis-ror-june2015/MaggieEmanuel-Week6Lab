@@ -1,8 +1,25 @@
-<h1>All Users</h1>
-<ul>
-  <% @user.each do |user| %>
-    <li><%= user.email %></li>
-    <li><%= link_to "Follow", follow_user_path(@user)%></li>
-  <% end %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "Peeks", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Profile", current_user %></li>
+        <li><%= link_to "Log out", destroy_user_session_path, :method => :delete %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container col-md-offset-1">
+  <h1>   All Users</h1>
+  <ul>
+    <% @user.each do |user| %>
+      <ul class="list-style-none list-inline">
+        <li class=" btn btn-primary"><%=link_to "Follow", '#' %></li>
+        <li class=" btn btn-primary"><%=link_to "Unfollow", '#' %></li>
+        <li><%= user.username %></li> |
+        <li><%= user.first_name %> <%= user.last_name %></li> |
+        <li><%= user.email %></li>
+    </ul>
 
-</ul>
+    <% end %>
+</div>
