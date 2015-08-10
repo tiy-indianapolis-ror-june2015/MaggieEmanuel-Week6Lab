@@ -1,5 +1,5 @@
 class UserController < ApplicationController
-   attr_accessible :email, :username, :user_bio, :user_photo
+  #  attr_accessible :email, :username, :user_bio, :user_photo
 
   def new
     @user = User.new
