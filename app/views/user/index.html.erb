@@ -1,3 +1,9 @@
+<h1>All Users</h1>
+<ul>
+  <% @user.each do |user| %>
+    <li><%= user.email %></li>
+  <% end %>
+
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to "Peeks", root_path, id: "logo" %>
@@ -19,6 +25,7 @@
         <li><%= user.username %></li> |
         <li><%= user.first_name %> <%= user.last_name %></li>
     </ul>
+
 
     <% end %>
 </div>

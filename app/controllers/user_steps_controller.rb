@@ -1,4 +1,4 @@
-class UserStepsController < ApplicationController
+class UsersStepsController < ApplicationController
   include Wicked::Wizard
   before_filter :authenticate_user!
 
@@ -17,12 +17,14 @@ class UserStepsController < ApplicationController
 
   def finish_wizard_path
     user_path(current_user)
+
   end
 
   private
 
   def user_params
     params.require(:user).permit(:email, :password, :password_confirmation, :username, :user_bio, :user_photo, :first_name, :last_name)
+
   end
 
 end
