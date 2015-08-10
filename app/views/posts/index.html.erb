@@ -14,9 +14,6 @@
     <% @posts.each do |post| %>
       <tr>
         <td><%= post.body %>Written by: <%= post.user.username %></td>
-          <%= if post.user_id != current_user.id %></td>
-          <td> <%= button_to 'Stop Following', unfollow_path(:id => post.id) %></td>
-          <% end %>
         </tr>
       <% end %>
   </tbody>
@@ -24,7 +21,6 @@
 
 <br>
 
-<%= link_to "Users", user_index_path %>
 
 <%= link_to 'New Post', new_post_path %>
 <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
