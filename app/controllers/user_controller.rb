@@ -1,7 +1,4 @@
-<<<<<<< HEAD:app/controllers/user_controller.rb
 
-=======
->>>>>>> eaff91ff73b9321071f2ca60a06e268d2e2e4588:app/controllers/user_controller.rb
 class UserController < ApplicationController
   attr_accessor :email, :username, :user_bio, :user_photo
 
@@ -34,7 +31,6 @@ class UserController < ApplicationController
     @user = User.find(params[:id])
       if current_user == @user
       flash[:notice] = "You are now following."
-
       else
         current_user.follow(@user)
       end
@@ -42,10 +38,9 @@ class UserController < ApplicationController
   end
 
   def unfollow
-
-      current_user.stop_following(@user)
-      redirect_to :back
-
+    @user = User.find(params[:id])
+        current_user.stop_following(@user)
+        redirect_to root_path
   end
 
 end

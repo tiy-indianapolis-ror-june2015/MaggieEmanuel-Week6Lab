@@ -29167,3 +29167,1076 @@ ActionView::Template::Error (undefined method `user_photo' for nil:NilClass):
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (129.4ms)
+
+
+Started GET "/" for ::1 at 2015-08-10 21:49:50 -0400
+Processing by HomePageController#home as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered home_page/home.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 805ms (Views: 792.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/home_page.self-35976ae27ae9dbba56d40468787706c20e2fb97df926c8cbeab873156fa5b45a.css?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/custom.self-51fd060fcbebca9ebcda935b6fbb7ee53684462a13df2f5b8c93d06b06405ec7.css?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/scaffolds.self-ba2edf577e317b0f8221aa6b6ab66e3353a5680c2166b99577834f950c5a6d63.css?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/application.self-86d24fb5f8d81ad5dae4573edb00b1a73a5cff0926d9b7c3c69305646f2d7d2a.css?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/follow.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/home_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/user_steps.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-08-10 21:49:52 -0400
+
+
+Started GET "/user" for ::1 at 2015-08-10 21:49:57 -0400
+
+SyntaxError (/Users/IronYard/Documents/Week-6/day4/MaggieEmanuel-Week6Lab/app/controllers/user_controller.rb:1: syntax error, unexpected <<
+<<<<<<< HEAD:app/controllers/user_controller.rb
+  ^
+/Users/IronYard/Documents/Week-6/day4/MaggieEmanuel-Week6Lab/app/controllers/user_controller.rb:3: syntax error, unexpected ===, expecting end-of-input
+=======
+   ^):
+  app/controllers/user_controller.rb:1: syntax error, unexpected <<
+  app/controllers/user_controller.rb:3: syntax error, unexpected ===, expecting end-of-input
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (151.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (107.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (480.2ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 21:49:59 -0400
+
+SyntaxError (/Users/IronYard/Documents/Week-6/day4/MaggieEmanuel-Week6Lab/app/controllers/user_controller.rb:1: syntax error, unexpected <<
+<<<<<<< HEAD:app/controllers/user_controller.rb
+  ^
+/Users/IronYard/Documents/Week-6/day4/MaggieEmanuel-Week6Lab/app/controllers/user_controller.rb:3: syntax error, unexpected ===, expecting end-of-input
+=======
+   ^):
+  app/controllers/user_controller.rb:1: syntax error, unexpected <<
+  app/controllers/user_controller.rb:3: syntax error, unexpected ===, expecting end-of-input
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (117.9ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 21:50:52 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (13.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (51.6ms)
+Completed 200 OK in 764ms (Views: 737.3ms | ActiveRecord: 14.7ms)
+
+
+Started POST "/user/5/follow" for ::1 at 2015-08-10 21:50:58 -0400
+Processing by UserController#follow as HTML
+  Parameters: {"authenticity_token"=>"Fqn699dVrUmyLQMfsUgq79+f/LFjGiWbiryI6LpvFQ7lFp1btryIOlbKy/NlonlLF9Q+BqnIx5I7FqIL9c5bnw==", "id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Redirected to http://localhost:3000/user
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 21:50:58 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 277ms (Views: 275.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/user/5/unfollow" for ::1 at 2015-08-10 21:51:04 -0400
+Processing by UserController#unfollow as HTML
+  Parameters: {"authenticity_token"=>"B9otrEs/c6AeoQ00BLrSm9DwxmcceSnY3yJpx5HZtBn0ZUoAKtZW0/pGxdjQUIE/GLsE0Nary9FuiEMk3nj6iA==", "id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mFollow Load (16.0ms)[0m  SELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ?  [["follower_id", 5], ["follower_type", "User"]]
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.3ms)
+
+NoMethodError (undefined method `unblocked' for #<ActiveRecord::Associations::CollectionProxy []>):
+  app/controllers/user_controller.rb:43:in `unfollow'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (250.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (159.9ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 21:51:58 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 797ms (Views: 782.5ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/user/4/follow" for ::1 at 2015-08-10 21:52:01 -0400
+Processing by UserController#follow as HTML
+  Parameters: {"authenticity_token"=>"RViTHBp5lF3GIrqZtilA0PGX2/TOqLqZgIBomRmip+O25/Swe5CxLiLFcnViwxN0OdwZQwR6WJAxKkJ6VgPpcg==", "id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mFollow Load (34.6ms)[0m  [1mSELECT  "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."followable_id" = ? AND "follows"."followable_type" = ? LIMIT 1[0m  [["follower_id", 5], ["follower_type", "User"], ["followable_id", 4], ["followable_type", "User"]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (9.4ms)[0m  [1mINSERT INTO "follows" ("followable_id", "followable_type", "follower_id", "follower_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["followable_id", 4], ["followable_type", "User"], ["follower_id", 5], ["follower_type", "User"], ["created_at", "2015-08-11 01:52:01.439700"], ["updated_at", "2015-08-11 01:52:01.439700"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/user
+Completed 302 Found in 77ms (ActiveRecord: 46.4ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 21:52:01 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 206ms (Views: 204.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/user/4/unfollow" for ::1 at 2015-08-10 21:52:06 -0400
+Processing by UserController#unfollow as HTML
+  Parameters: {"authenticity_token"=>"4zbY5VnBsvXDuE6i0w2EdCOJuVTC1k4UYQ3Vb/R/Rj8Qib9JOCiXhidfhk4H59fQ68J74wgErB3Qp/+Mu94Irg==", "id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mFollow Load (0.1ms)[0m  SELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ?  [["follower_id", 5], ["follower_type", "User"]]
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `unblocked' for #<Follow::ActiveRecord_Associations_CollectionProxy:0x007fe80186d0f8>):
+  app/controllers/user_controller.rb:43:in `unfollow'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (282.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (546.2ms)
+
+
+Started POST "/user/1/follow" for ::1 at 2015-08-10 22:00:32 -0400
+Processing by UserController#follow as HTML
+  Parameters: {"authenticity_token"=>"4zbY5VnBsvXDuE6i0w2EdCOJuVTC1k4UYQ3Vb/R/Rj8Qib9JOCiXhidfhk4H59fQ68J74wgErB3Qp/+Mu94Irg==", "id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mFollow Load (0.3ms)[0m  [1mSELECT  "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."followable_id" = ? AND "follows"."followable_type" = ? LIMIT 1[0m  [["follower_id", 5], ["follower_type", "User"], ["followable_id", 1], ["followable_type", "User"]]
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (13.0ms)[0m  [1mINSERT INTO "follows" ("followable_id", "followable_type", "follower_id", "follower_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["followable_id", 1], ["followable_type", "User"], ["follower_id", 5], ["follower_type", "User"], ["created_at", "2015-08-11 02:00:33.106015"], ["updated_at", "2015-08-11 02:00:33.106015"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/user
+Completed 302 Found in 60ms (ActiveRecord: 16.4ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:00:33 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (2.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 666ms (Views: 662.1ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/user/1/unfollow" for ::1 at 2015-08-10 22:00:35 -0400
+Processing by UserController#unfollow as HTML
+  Parameters: {"authenticity_token"=>"lz0dqYt6yG9L12NnCAUgaGv1yRuZkO83ZKneNSardmtkgnoF6pPtHK8wq4vc73PMo74LrFNCDT7VA/TWaQo4+g==", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mFollow Load (0.1ms)[0m  SELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ?  [["follower_id", 5], ["follower_type", "User"]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `unblocked' for #<Follow::ActiveRecord_Associations_CollectionProxy:0x007fe8048734c8>):
+  app/controllers/user_controller.rb:43:in `unfollow'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (101.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (197.4ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:00:41 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (28.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 345ms (Views: 299.4ms | ActiveRecord: 29.2ms)
+
+
+Started POST "/user/1/unfollow" for ::1 at 2015-08-10 22:00:42 -0400
+Processing by UserController#unfollow as HTML
+  Parameters: {"authenticity_token"=>"AkX7zV3DJKpIPUeiXUUlYEuK++4WRDj2B5bE1favrOrx+pxhPCoB2azaj06Jr3bEg8E5WdyW2v+2PO42uQ7iew==", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mFollow Load (0.2ms)[0m  [1mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ?[0m  [["follower_id", 5], ["follower_type", "User"]]
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `unblocked' for #<Follow::ActiveRecord_Associations_CollectionProxy:0x007fe801853298>):
+  app/controllers/user_controller.rb:42:in `unfollow'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (580.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (148.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (626.0ms)
+
+
+Started POST "/user/1/follow" for ::1 at 2015-08-10 22:12:40 -0400
+Processing by UserController#follow as HTML
+  Parameters: {"authenticity_token"=>"AkX7zV3DJKpIPUeiXUUlYEuK++4WRDj2B5bE1favrOrx+pxhPCoB2azaj06Jr3bEg8E5WdyW2v+2PO42uQ7iew==", "id"=>"1"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mFollow Load (1.5ms)[0m  SELECT  "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."followable_id" = ? AND "follows"."followable_type" = ? LIMIT 1  [["follower_id", 5], ["follower_type", "User"], ["followable_id", 1], ["followable_type", "User"]]
+Redirected to http://localhost:3000/user
+Completed 302 Found in 40ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:12:40 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 681ms (Views: 678.3ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/user/1/unfollow" for ::1 at 2015-08-10 22:12:44 -0400
+Processing by UserController#unfollow as HTML
+  Parameters: {"authenticity_token"=>"6UemqzUEEl3h7kP19zyV7fUKeV9LUX94fe7T6pSjBHQa+MEHVO03LgUJixkj1sZJPUG76IGDnXHMRPkJ2wJK5Q==", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ?[0m  [["follower_id", 5], ["follower_type", "User"]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `unblocked' for #<Follow::ActiveRecord_Associations_CollectionProxy:0x007fe8039919f0>):
+  app/controllers/user_controller.rb:42:in `unfollow'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (101.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (210.0ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:12:47 -0400
+Processing by UserController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered user/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 280ms (Views: 278.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/user/2/follow" for ::1 at 2015-08-10 22:12:49 -0400
+Processing by UserController#follow as HTML
+  Parameters: {"authenticity_token"=>"6EgsOtuQIs/oRA1dTsM5toqw6oPCZL5dzm7FwStscLob90uWunkHvAyjxbGaKWoSQvsoNAi2XFR/xO8iZM0+Kw==", "id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mFollow Load (0.1ms)[0m  SELECT  "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."followable_id" = ? AND "follows"."followable_type" = ? LIMIT 1  [["follower_id", 5], ["follower_type", "User"], ["followable_id", 2], ["followable_type", "User"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (52.8ms)[0m  INSERT INTO "follows" ("followable_id", "followable_type", "follower_id", "follower_type", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["followable_id", 2], ["followable_type", "User"], ["follower_id", 5], ["follower_type", "User"], ["created_at", "2015-08-11 02:12:49.370739"], ["updated_at", "2015-08-11 02:12:49.370739"]]
+  [1m[36m (57.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user
+Completed 302 Found in 124ms (ActiveRecord: 111.3ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:12:49 -0400
+Processing by UserController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered user/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 267ms (Views: 265.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/user/2/unfollow" for ::1 at 2015-08-10 22:12:51 -0400
+Processing by UserController#unfollow as HTML
+  Parameters: {"authenticity_token"=>"tNTNLZ275n52lfpNbW3FbkiLxYgisEtM3QDEh41ot6dHa6qB/FLDDZJyMqG5h5bKgMAHP+hiqUVsqu5kwsn5Ng==", "id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mFollow Load (0.1ms)[0m  SELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ?  [["follower_id", 5], ["follower_type", "User"]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `unblocked' for #<Follow::ActiveRecord_Associations_CollectionProxy:0x007fe802dc1f08>):
+  app/controllers/user_controller.rb:42:in `unfollow'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (105.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (215.6ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:13:18 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 248ms (Views: 246.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/user/1/follow" for ::1 at 2015-08-10 22:13:20 -0400
+Processing by UserController#follow as HTML
+  Parameters: {"authenticity_token"=>"+8FF3w+Tf8ghOySFUa0P5Hyz0PD84VcJhNcBzUXqD5UIfiJzbnpau8Xc7GmFR1xAtPgSRzYztQA1fSsuCktBBA==", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT  "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."followable_id" = ? AND "follows"."followable_type" = ? LIMIT 1[0m  [["follower_id", 5], ["follower_type", "User"], ["followable_id", 1], ["followable_type", "User"]]
+Redirected to http://localhost:3000/user
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:13:20 -0400
+Processing by UserController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered user/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 172ms (Views: 170.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:13:22 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe7fdb67758>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317234984280'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (108.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (194.0ms)
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:13:23 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe7fdb67758>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317229327740'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (47.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (107.5ms)
+
+
+Started POST "/user/4/follow" for ::1 at 2015-08-10 22:13:36 -0400
+Processing by UserController#follow as HTML
+  Parameters: {"authenticity_token"=>"VimO8l4XjMFFTdgyx15MbIBTIfNgBvD7dh4rY8xZjSKlluleP/6psqGqEN4TtB/ISBjjRKrUEvLHtAGAg/jDsw==", "id"=>"4"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mFollow Load (0.3ms)[0m  SELECT  "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."followable_id" = ? AND "follows"."followable_type" = ? LIMIT 1  [["follower_id", 5], ["follower_type", "User"], ["followable_id", 4], ["followable_type", "User"]]
+Redirected to http://localhost:3000/user
+Completed 302 Found in 14ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:13:36 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 350ms (Views: 348.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:13:38 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe7fdb67758>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317234984280'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (84.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (86.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (194.9ms)
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:13:39 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe7fdb67758>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317229327740'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (108.2ms)
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:16:06 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (20.4ms)
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe7fdb67758>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317234984280'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (173.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (144.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (389.6ms)
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:16:08 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe7fdb67758>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317229327740'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (100.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (166.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (128.6ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:48:41 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (55.8ms)
+Completed 200 OK in 1521ms (Views: 1440.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:48:44 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 442ms (Views: 411.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:48:44 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 348ms (Views: 347.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/user" for ::1 at 2015-08-10 22:48:44 -0400
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered user/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 155ms (Views: 154.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 22:48:45 -0400
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 22:48:45 -0400
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 22:48:45 -0400
+
+
+Started GET "/assets/user_steps.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-10 22:48:45 -0400
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:48:47 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (30.3ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe804110708>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317234984280'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (98.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (226.5ms)
+
+
+Started GET "/user/5" for ::1 at 2015-08-10 22:48:48 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered user/show.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe804110708>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317229327740'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (116.6ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-08-10 22:51:49 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ndIB+rdI0zjOUw5Ogh51u8OgWu/lA3DFPqLODJdM36dubWZW1qH2Syq0xqJW9CYfC+uYWC/RksyPCOTv2O2RNg=="}
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.7ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 42ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-08-10 22:51:50 -0400
+Processing by HomePageController#home as HTML
+  Rendered home_page/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1217ms (Views: 1214.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-08-10 22:51:53 -0400
+Processing by Users::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 230ms (Views: 204.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-08-10 22:52:26 -0400
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8LrPu2fbpVCErdPowGVMXW7Bpqf7i3Tql5qXdA5jbydggAqxwgrPcPIlHVxT2MwaxYxJi1sh1SbNhPNNay8cuQ==", "user"=>{"email"=>"mickeymouse@google.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (35.0ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'mickeymouse@google.com' LIMIT 1[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "mickeymouse@google.com"], ["encrypted_password", "$2a$10$dsoqnlztb2jWwKz5BsD8YOciJFdNww/tFPIzzIq1Rg45XmQlXunMW"], ["created_at", "2015-08-11 02:52:26.883779"], ["updated_at", "2015-08-11 02:52:26.883779"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-08-11 02:52:26.890852"], ["current_sign_in_at", "2015-08-11 02:52:26.890852"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2015-08-11 02:52:26.891795"], ["id", 6]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/user_steps/username
+Completed 302 Found in 274ms (ActiveRecord: 39.8ms)
+
+
+Started GET "/user_steps/username" for ::1 at 2015-08-10 22:52:26 -0400
+Processing by UserStepsController#show as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered user_steps/_header.html.erb (0.8ms)
+  Rendered user_steps/username.html.erb within layouts/application (38.1ms)
+Completed 200 OK in 638ms (Views: 635.7ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/user_steps/username" for ::1 at 2015-08-10 22:52:37 -0400
+Processing by UserStepsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0KhPFFIK6DB2/8d3Nuio5CPV+NmT7ObL/UMQrcwoIK9Akooe99uCEAB3CcOlVSijiJgX9TNGRwenXXSUqWRTMQ==", "user"=>{"first_name"=>"Mickey", "last_name"=>"Mouse", "username"=>"MMouse"}, "commit"=>"Next", "id"=>"username"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "username" = ?, "first_name" = ?, "last_name" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["username", "MMouse"], ["first_name", "Mickey"], ["last_name", "Mouse"], ["updated_at", "2015-08-11 02:52:37.483328"], ["id", 6]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user_steps/user_photo
+Completed 302 Found in 30ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/user_steps/user_photo" for ::1 at 2015-08-10 22:52:37 -0400
+Processing by UserStepsController#show as HTML
+  Parameters: {"id"=>"user_photo"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  Rendered user_steps/_header.html.erb (1.1ms)
+  Rendered user_steps/user_photo.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 375ms (Views: 373.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user_steps/user_bio" for ::1 at 2015-08-10 22:52:39 -0400
+Processing by UserStepsController#show as HTML
+  Parameters: {"id"=>"user_bio"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered user_steps/_header.html.erb (0.8ms)
+  Rendered user_steps/user_bio.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 205ms (Views: 203.0ms | ActiveRecord: 0.1ms)
+
+
+Started PUT "/user_steps/user_bio" for ::1 at 2015-08-10 22:52:47 -0400
+Processing by UserStepsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4jBhdcrd/DIg+YfyUP13VPKmIIpvQ3C5vtPhea1KA3ZyCqR/bwyWElZxSUbDQPcTWevPps/p0XXkzYVAyAZw6A==", "user"=>{"user_bio"=>"what do you want to know"}, "commit"=>"Done", "id"=>"user_bio"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "user_bio" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["user_bio", "what do you want to know"], ["updated_at", "2015-08-11 02:52:47.953550"], ["id", 6]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user_steps/wicked_finish
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/user_steps/wicked_finish" for ::1 at 2015-08-10 22:52:47 -0400
+Processing by UserStepsController#show as HTML
+  Parameters: {"id"=>"wicked_finish"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+Wizard has finished, redirecting to finish_wizard_path: "/user/6"
+Redirected to http://localhost:3000/user/6
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/user/6" for ::1 at 2015-08-10 22:52:47 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered user/show.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe804110708>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317229327740'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (94.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (88.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (178.3ms)
+
+
+Started GET "/user_steps/user_bio" for ::1 at 2015-08-10 22:56:45 -0400
+Processing by UserStepsController#show as HTML
+  Parameters: {"id"=>"user_bio"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  Rendered user_steps/_header.html.erb (2.3ms)
+  Rendered user_steps/user_bio.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 922ms (Views: 898.0ms | ActiveRecord: 0.9ms)
+
+
+Started PUT "/user_steps/user_bio" for ::1 at 2015-08-10 22:56:47 -0400
+Processing by UserStepsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7o1vjqKsADPNOp3LWfpKA6sOkljvssbtVhMF06Zl0jZ+t6qEB31qE7uyU3/KR8pEAEN9dE8YZyEMDWHqwymhqA==", "user"=>{"user_bio"=>"what do you want to know"}, "commit"=>"Done", "id"=>"user_bio"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user_steps/wicked_finish
+Completed 302 Found in 9ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/user_steps/wicked_finish" for ::1 at 2015-08-10 22:56:47 -0400
+Processing by UserStepsController#show as HTML
+  Parameters: {"id"=>"wicked_finish"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+Wizard has finished, redirecting to finish_wizard_path: "/user/6"
+Redirected to http://localhost:3000/user/6
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/user/6" for ::1 at 2015-08-10 22:56:47 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered user/show.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `unblocked' for #<Class:0x007fe804110708>):
+    33: <div class="container col-md-offset-1">
+    34:   <div class="span6">
+    35:     <ul class="list-style-none list-inline">
+    36:       <li><h5><%= @user.follow_count %> FOLLOWING</h5></li>
+    37:       <li><h5><%= @user.followers_count %> FOLLOWERS</h5></li>
+    38:     </ul>
+    39:   </div>
+  app/views/user/show.html.erb:36:in `_app_views_user_show_html_erb__1999631528313021523_70317229327740'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (112.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (117.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (216.8ms)
+
+
+Started POST "/user/console/repl_sessions/ec6c1bd3b225648bc0808b4e4177e1bf/trace" for ::1 at 2015-08-10 23:00:07 -0400
+
+
+Started POST "/user/console/repl_sessions/ec6c1bd3b225648bc0808b4e4177e1bf/trace" for ::1 at 2015-08-10 23:00:14 -0400
+
+
+Started PUT "/user_steps/user_bio" for ::1 at 2015-08-10 23:02:20 -0400
+Processing by UserStepsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4jBhdcrd/DIg+YfyUP13VPKmIIpvQ3C5vtPhea1KA3ZyCqR/bwyWElZxSUbDQPcTWevPps/p0XXkzYVAyAZw6A==", "user"=>{"user_bio"=>"what do you want to know"}, "commit"=>"Done", "id"=>"user_bio"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/user_steps/wicked_finish
+Completed 302 Found in 49ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/user_steps/wicked_finish" for ::1 at 2015-08-10 23:02:20 -0400
+Processing by UserStepsController#show as HTML
+  Parameters: {"id"=>"wicked_finish"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+Wizard has finished, redirecting to finish_wizard_path: "/user/6"
+Redirected to http://localhost:3000/user/6
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/user/6" for ::1 at 2015-08-10 23:02:20 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  [1m[36m (16.7ms)[0m  [1mSELECT COUNT(*) FROM "follows" WHERE "follows"."blocked" = ? AND "follows"."follower_id" = ? AND "follows"."follower_type" = ?[0m  [["blocked", "f"], ["follower_id", 6], ["follower_type", "User"]]
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "follows" WHERE "follows"."followable_id" = ? AND "follows"."followable_type" = ? AND "follows"."blocked" = ?  [["followable_id", 6], ["followable_type", "User"], ["blocked", "f"]]
+  Rendered user/show.html.erb within layouts/application (387.4ms)
+Completed 200 OK in 1002ms (Views: 979.4ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/posts?id=6" for ::1 at 2015-08-10 23:02:42 -0400
+Processing by PostsController#index as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  [1m[35mFollow Load (0.2ms)[0m  SELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = ?  [["follower_id", 6], ["follower_type", "User"], ["blocked", "f"]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = 6[0m
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = 6  ORDER BY created_at DESC, "posts"."created_at" ASC LIMIT 10 OFFSET 0
+  Rendered posts/index.html.erb within layouts/application (174.9ms)
+Completed 200 OK in 1478ms (Views: 1402.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/posts/new" for ::1 at 2015-08-10 23:02:49 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (113.1ms)
+  Rendered posts/new.html.erb within layouts/application (126.1ms)
+Completed 200 OK in 548ms (Views: 541.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for ::1 at 2015-08-10 23:02:59 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fA4pRiVHLIDW4EQZclheax3kKPw01lYsyVyjROKMtH7sNOxMgJZGoKBoiq3h5d4stqnH0JR89+CTQsd9h8DH4A==", "post"=>{"body"=>"Hello World", "user_id"=>"4"}, "commit"=>"Create Post"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Hello World"], ["user_id", 4], ["created_at", "2015-08-11 03:02:59.831310"], ["updated_at", "2015-08-11 03:02:59.831310"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/3
+Completed 302 Found in 9ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/posts/3" for ::1 at 2015-08-10 23:02:59 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered posts/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 208ms (Views: 206.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/user/6" for ::1 at 2015-08-10 23:03:01 -0400
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "follows" WHERE "follows"."blocked" = ? AND "follows"."follower_id" = ? AND "follows"."follower_type" = ?[0m  [["blocked", "f"], ["follower_id", 6], ["follower_type", "User"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "follows" WHERE "follows"."followable_id" = ? AND "follows"."followable_type" = ? AND "follows"."blocked" = ?  [["followable_id", 6], ["followable_type", "User"], ["blocked", "f"]]
+  Rendered user/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 193ms (Views: 191.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts?id=6" for ::1 at 2015-08-10 23:03:04 -0400
+Processing by PostsController#index as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  [1m[35mFollow Load (0.1ms)[0m  SELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = ?  [["follower_id", 6], ["follower_type", "User"], ["blocked", "f"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = 6[0m
+  [1m[35mPost Load (0.6ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = 6  ORDER BY created_at DESC, "posts"."created_at" ASC LIMIT 10 OFFSET 0
+  Rendered posts/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 232ms (Views: 228.3ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-08-10 23:03:05 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ozmyUpCmvkt3jC2qRTT+h4iwmjEED2OsiNyWeyLXeHozA3dYNXfUawEE4x7WiX7AI/11HaSlwmDSwvJCR5sL5A=="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-08-10 23:03:06 -0400
+Processing by HomePageController#home as HTML
+  Rendered home_page/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 197ms (Views: 196.9ms | ActiveRecord: 0.0ms)
