@@ -1,9 +1,11 @@
+
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to "Peeks", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Profile", user_path(:id => current_user.id) %></li>
+
         <li><%= link_to "Log out", destroy_user_session_path, :method => :delete %></li>
       </ul>
     </nav>
@@ -11,6 +13,7 @@
 </header>
 <div class="container col-md-offset-1">
   <h1>All Users</h1>
+
   <br>
   <% @user.each do |user| %>
   <div class="row">
