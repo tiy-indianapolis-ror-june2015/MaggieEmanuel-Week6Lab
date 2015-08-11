@@ -5,23 +5,25 @@ Rails.application.routes.draw do
 
   resources :posts
   devise_for :users, controllers: {registrations: "users/registrations"}
+<<<<<<< HEAD
   resources :users do
+=======
+
+  resources :user_steps
+
+  resources :user do
+>>>>>>> d2aa91adbf26842cc2db0e1a068d2a26122f9a72
     member do
       get :follow
       get :unfollow
     end
   end
-  resources :user_steps
   resources :user, :only => [:show, :index, :new]
-
-
 
   post 'user/:id/follow' => 'user#follow', as: :follow
   post 'user/:id/unfollow' => 'user#unfollow', as: :unfollow
 
-
 end
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

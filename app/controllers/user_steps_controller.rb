@@ -1,4 +1,4 @@
-class UsersStepsController < ApplicationController
+class UserStepsController < ApplicationController
   include Wicked::Wizard
   before_filter :authenticate_user!
 
