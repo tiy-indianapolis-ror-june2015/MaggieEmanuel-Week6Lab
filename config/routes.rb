@@ -5,8 +5,7 @@ Rails.application.routes.draw do
 
   resources :posts
   devise_for :users, controllers: {registrations: "users/registrations"}
-  resources :users_step
-  resources :user do
+  resources :users do
     member do
       get :follow
       get :unfollow
