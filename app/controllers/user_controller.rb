@@ -27,7 +27,6 @@ class UserController < ApplicationController
   end
 
   def follow
-
     @user = User.find(params[:id])
       if current_user
         current_user == @user
@@ -43,7 +42,7 @@ class UserController < ApplicationController
     @user = User.find(params[:id])
     current_user.stop_following(@user)
     flash[:notice] = "You are no longer following"
-    redirect_to root_path
+    redirect_to :posts
   end
 
 end
