@@ -9,7 +9,7 @@
         </div>
         <div>
           <div>
-            <b><%= link_to post.user.username, user_path(:id => post.user_id) %></b>
+            <b><%= link_to post.user.user_name, user_path(:id => post.user_id) %></b>
             <%= link_to "UnFollow", unfollow_path(:id => post.user.id), :method => :post %>
           </div>
           <br>
